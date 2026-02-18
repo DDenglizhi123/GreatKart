@@ -64,11 +64,7 @@ TEMPLATES = [
                 "django.template.context_processors.request",
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
-<<<<<<< HEAD
-                "category.context_processors.menu_links",
-=======
                 "category.context_processors.menu_links",  # 为每个模板添加一个新的上下文处理器，以便在所有模板中都可以访问到分类链接
->>>>>>> d4184a5 (updates)
             ],
         },
     },
